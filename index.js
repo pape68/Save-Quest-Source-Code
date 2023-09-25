@@ -49,7 +49,7 @@ const composeMCP = async (operation, profileId, accountId, body, accessToken) =>
 
     await composeMCP('ClientQuestLogin', 'campaign', response.data.account_id, {}, response.data.access_token);
 
-    console.log('✅ Request Saved Successfully!')
+    console.log('✅ Quest Saved Successfully!')
 
 
 
